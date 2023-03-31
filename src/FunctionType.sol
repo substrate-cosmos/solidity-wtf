@@ -41,8 +41,8 @@ contract FunctionType {
     }
 
     // view function
-    function numberView() external view returns(uint256 number) {
-        number
+    function numberView() external view returns(uint256) {
+        return number;
     }
 
     function minus() internal {
